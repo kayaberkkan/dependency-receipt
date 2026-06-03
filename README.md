@@ -5,6 +5,18 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/dependency-receipt">
+    <img src="https://img.shields.io/npm/v/dependency-receipt.svg" alt="npm version" />
+  </a>
+  <a href="https://www.npmjs.com/package/dependency-receipt">
+    <img src="https://img.shields.io/npm/dm/dependency-receipt.svg" alt="npm downloads" />
+  </a>
+  <a href="https://github.com/kayaberkkan/dependency-receipt/blob/main/LICENSE">
+    <img src="https://img.shields.io/npm/l/dependency-receipt.svg" alt="license" />
+  </a>
+</p>
+
+<p align="center">
   Dependency Receipt prints the bill your package manager forgot to show you:<br>
   transitive weight, install scripts, native build risks, license gaps, and dependency bloat.
 </p>
