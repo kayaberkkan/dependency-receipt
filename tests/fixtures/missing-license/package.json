@@ -1,0 +1,9 @@
+{
+  "name": "missing-license-fixture",
+  "version": "1.0.0",
+  "description": "A fixture with missing license packages",
+  "dependencies": {
+    "some-unlicensed-pkg": "^1.0.0",
+    "lodash": "^4.17.21"
+  }
+}

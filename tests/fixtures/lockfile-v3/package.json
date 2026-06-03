@@ -1,0 +1,11 @@
+{
+  "name": "lockfile-fixture",
+  "version": "1.0.0",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "@scope/utils": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "dependency-receipt",
+  "version": "0.1.0",
+  "description": "Every install has a cost. Dependency Receipt prints the bill your package manager forgot to show you.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "receipt": "./dist/cli.js",
+    "dependency-receipt": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "dependency",
+    "audit",
+    "receipt",
+    "security",
+    "analysis",
+    "cli",
+    "npm",
+    "pnpm",
+    "yarn",
+    "lockfile"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "yaml": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}
